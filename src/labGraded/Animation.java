@@ -26,16 +26,16 @@ public class Animation extends JFrame {
 	// Inner class: Displaying a moving message
 	static class MovingMessagePanel extends JPanel {
 		
-		private ImageIcon imageIcon1 = new ImageIcon("Users/Mr. Harris/Google Drive/Technical Stuff/Java/Workspace/images/silly_walks_small1.jpg");
+		private ImageIcon imageIcon1 = new ImageIcon("/imgs/silly_walks_small1.jpg"); // need to fix img references
 		private Image image1 = imageIcon1.getImage();
 		
-		private ImageIcon imageIcon2 = new ImageIcon("Users/Mr. Harris/Google Drive/Technical Stuff/Java/Workspace/images/silly_walks_small2.jpg");
+		private ImageIcon imageIcon2 = new ImageIcon("/imgs/silly_walks_small2.jpg"); // need to fix img references
 		private Image image2 = imageIcon2.getImage();
 		
-		private ImageIcon imageIcon3 = new ImageIcon("Users/Mr. Harris/Google Drive/Technical Stuff/Java/Workspace/images/silly_walks_small3.jpg");
+		private ImageIcon imageIcon3 = new ImageIcon("/imgs/silly_walks_small3.jpg"); // need to fix img references
 		private Image image3 = imageIcon3.getImage();
 		
-		private ImageIcon imageIcon4 = new ImageIcon("Users/Mr. Harris/Google Drive/Technical Stuff/Java/Workspace/images/silly_walks_small4.jpg");
+		private ImageIcon imageIcon4 = new ImageIcon("/imgs/silly_walks_small4.jpg"); // need to fix img references
 		private Image image4 = imageIcon4.getImage();
 		
 		private String message = "Welcome to Java";
